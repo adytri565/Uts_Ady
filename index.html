@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Lampu-Kemelob Jaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="Logo.png" width="150px" height="150px" alt="Logo Kemelob Jaya" class="logo-image" />
+            <h1>Kemelob Jaya</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h2 class="animate-left">Selamat Datang di Kemelob Jaya</h2>
+            <p class="animate-left">Kami adalah perusahaan yang menyediakan solusi pencahayaan inovatif untuk kebutuhan
+                Anda.</p>
+            <a href="#products" class="btn animate-left">Lihat Produk Kami</a>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>Tentang Kami</h2>
+            <p>Kemelob Jaya adalah perusahaan yang berkomitmen untuk menyediakan produk berkualitas tinggi dalam
+                pencahayaan. Dengan pengalaman bertahun-tahun di industri ini, kami menawarkan berbagai produk yang
+                dirancang untuk memenuhi kebutuhan pencahayaan Anda.</p>
+        </section>
+
+        <!-- Product/Service Section -->
+        <section id="products" class="products">
+            <h2>Produk Kami</h2>
+            <div class="product-card">
+                <img src="Lampu LED Hemat Energi.jpeg" width="200px" height="300px" alt="Lampu LED" />
+                <h3>Lampu LED Hemat Energi</h3>
+                <p>Lampu LED dengan daya tahan lama dan hemat energi, ideal untuk rumah atau kantor.</p>
+                <a href="#" class="btn" onclick="showPopup()">Pesan Sekarang</a> <!-- Tombol pesan -->
+            </div>
+            <div class="product-card">
+                <img src="Lampu Gantung Modern.jpeg" width="200px" height="300px" alt="Lampu Gantung" />
+                <h3>Lampu Gantung Modern</h3>
+                <p>Desain modern dan elegan, cocok untuk mempercantik ruang tamu atau ruang makan.</p>
+                <a href="#" class="btn" onclick="showPopup()">Pesan Sekarang</a> <!-- Tombol pesan -->
+            </div>
+            <div class="product-card">
+                <img src="Lampu Meja Modern.jpg" width="200px" height="300px" alt="Lampu Meja" />
+                <h3>Lampu Meja Minimalis</h3>
+                <p>Lampu meja dengan desain minimalis, ideal untuk meja belajar atau kantor.</p>
+                <a href="#" class="btn" onclick="showPopup()">Pesan Sekarang</a> <!-- Tombol pesan -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Pop-up -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Pilih Cara Untuk Menghubungi Kami</h2>
+            <a href="mailto:adytri064@gmail.com" class="btn">Email</a>
+            <a href="https://wa.me/6281228386547" class="btn" target="_blank">WhatsApp</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <h3>Hubungi Kami</h3>
+        <p>Email: <a href="mailto:adytri064@gmail.com">adytri064@gmail.com</a></p>
+        <p>Telepon: <a href="https://wa.me/6281228386547">+6281228386547</a></p>
+        <p>Alamat: Jl. Kh. Kaprawi Rt 002, Rw002, Tanjung, Brebes, Jawa Tengah</p>
+        <p>&copy; 2024 Kemelob Jaya. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
